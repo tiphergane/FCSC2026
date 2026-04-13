@@ -11,7 +11,8 @@
 Un fichier pcapng, et rien de plus, une information sur un protocole proprio. Je sens que je vais le regretter, mais allons-y !
 
 Comme d'habitude, une petite lecture rapide avec la GUI de wireshark pour avoir une petite idée du démon auquel je vais faire face, et pour une fois, il ne semble pas si terrifiant que cela
-![./IMG/wireshark1.png](pas si énorme)  
+
+![pas si enorme](./IMG/wireshark1.png)  
 
 en regardant dans les streams, on voit que le stream tcp 0 nous donnes quelques information dont l'architecture du serveur distant
 
@@ -46,11 +47,13 @@ dans le retour qui nous est donné, on voit le dossier **flag**, ce qui est bon 
 Mais le plus important surtout, c'est que l'on a une petite idée de ce que nous allons devoir réaliser. Nous allons chercher dans le dossier flag un fichier qui sera certainement nommé flag.txt, Easy non ?
 
 ![https://tenor.com/bcL5d.gif](l'admin qui lis le writeup)
+![l'admin qui regarde le writeup](https://tenor.com/bcL5d.gif)
 
 Mais quelle horreur le grpc ! on ne peux pas lister en netcat (ou je n'ai pas trouvé comment bien le faire), ni utiliser python, obliger de passer par un script en GO ! Qu'a cela ne tienne ! on va faire le srcipt en GO
 
 mais on va arriver à un point frustrant  
 ![https://tenor.com/by1m5.gif](raaaaaaaaaah !)
+![raaaaaaaaaaaaah!](https://tenor.com/by1m5.gif)
 
 OK, on arrive à lister, mais comment on fait pour lire le fichier ??
 
