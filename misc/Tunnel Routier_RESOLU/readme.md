@@ -5,6 +5,10 @@
 |MISC|1|1 étoile|
 |MISC|2|2 étoiles|
 
+## Spoil vidéo
+
+[![asciicast](https://asciinema.org/a/1101339.svg)](https://asciinema.org/a/1101339)
+
 ## Partie 1/2
 
 >Dans cette première partie de l'épreuve, vous devez retrouver un token caché dans les données d'identification de l'automate pour vous permettre d'accéder à la deuxième partie de l'épreuve.
